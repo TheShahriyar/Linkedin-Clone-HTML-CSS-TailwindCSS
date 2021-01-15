@@ -40,6 +40,11 @@ a:focus {
   outline: none;
 }
 
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1128px;
+  }
+}
 header .logo {
   color: #0a66c2;
 }
@@ -47,8 +52,23 @@ header nav a .link {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
 }
+header nav a .icon {
+  position: relative;
+}
 header nav a .icon svg path {
   color: rgba(0, 0, 0, 0.6) !important;
+}
+header nav a .icon .notifications {
+  position: absolute;
+  top: -3px;
+  right: -7px;
+  background-color: #cc1016;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1;
+  padding: 3px 5px;
+  border-radius: 100%;
+  font-size: 12px;
 }
 header nav a .icon img {
   width: 25px;
@@ -57,6 +77,13 @@ header nav a .icon img {
 
 .short-profile {
   overflow: hidden;
+}
+.short-profile .profile-info h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.short-profile .profile-info span {
+  font-size: 12px;
 }
 .short-profile li a {
   padding: 3px 20px;
@@ -174,6 +201,9 @@ header nav a .icon img {
   margin-bottom: 20px;
 }
 
+.people-suggestion .people-list .suggested-people {
+  margin-bottom: 20px;
+}
 .people-suggestion .people-list .suggested-people img {
   width: 50px;
   height: 50px;
@@ -203,7 +233,6 @@ header nav a .icon img {
 .people-suggestion .recommendation {
   color: rgba(0, 0, 0, 0.6);
   font-weight: 500;
-  margin-top: 20px;
   display: inline-block;
   padding: 2px 4px;
   border-radius: 3px;

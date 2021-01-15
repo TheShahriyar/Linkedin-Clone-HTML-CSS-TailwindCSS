@@ -7,6 +7,15 @@
 
 
 
+
+@media (min-width: 1280px) {
+	.container {
+		max-width: 1128px;
+	}
+}
+
+
+
 //-------------------------------
 // Start Header Section
 //-------------------------------
@@ -24,8 +33,22 @@ header {
 				color: $light-grey;
 			}
 			.icon {
+				position: relative;
 				svg path{
 					color: $light-grey !important;
+				}
+
+				.notifications {
+					position: absolute;
+					top: -3px;
+					right: -7px;
+					background-color: #cc1016;
+					color: #fff;
+					font-weight: 500;
+					line-height: 1;
+					padding: 3px 5px;
+					border-radius: 100%;
+					font-size: 12px;
 				}
 
 				img {
@@ -44,6 +67,17 @@ header {
 
 .short-profile {
 	overflow: hidden;
+
+	.profile-info {
+		h3 {
+			font-size: 16px;
+			font-weight: 500;
+		}
+
+		span {
+			font-size: 12px;
+		}
+	}
 
 	li {
 		a {
@@ -221,6 +255,7 @@ header {
 	.people-list {
 
 		.suggested-people {
+			margin-bottom: 20px;
 			
 			img {
 				width: 50px;
@@ -258,7 +293,6 @@ header {
 	.recommendation {
 		color: $light-grey;
 		font-weight: 500;
-		margin-top: 20px;
 		display: inline-block;
 		padding: 2px 4px;
 		border-radius: 3px;
