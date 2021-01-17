@@ -3,48 +3,10 @@
     max-width: 1128px;
   }
 }
-header .logo {
-  color: #0a66c2;
-}
-
-.short-profile li a span.t {
-  color: rgba(0, 0, 0, 0.9);
-}
-.short-profile li a .number {
-  color: #0a66c2;
-}
-
-.link-lists ul a {
-  color: #0a66c2;
-}
-
-.write-post .post-type .icon2 svg {
-  color: #70b5f9;
-}
-.write-post .post-type .icon3 svg {
-  color: #7fc15e;
-}
-.write-post .post-type .icon4 svg {
-  color: #70b5f9;
-}
-.write-post .post-type .icon5 svg {
-  color: #f5987e;
-}
-
-.news-feed .user-details h5 a:hover {
-  color: #0a66c2;
-}
-.news-feed .reactions a:hover {
-  color: #0a66c2;
-}
-
-.people-suggestion .follow-btn {
-  color: rgba(0, 0, 0, 0.6);
-}
-
+.link-lists a,
+.short-profile a .number,
+.news-feed .user-details h5 a:hover,
+.news-feed .reactions a:hover,
 .sidebar-links a:hover {
   color: #0a66c2;
-}
-.sidebar-links .copyright .icon svg {
-  fill: #0a66c2;
 }

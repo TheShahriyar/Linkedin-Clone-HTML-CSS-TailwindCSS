@@ -4,127 +4,16 @@
 
 @import 'variable';
 
-
-
-
 @media (min-width: 1280px) {
 	.container {
 		max-width: 1128px;
 	}
 }
 
-
-
-//-------------------------------
-// Start Header Section
-//-------------------------------
-
-header {
-	.logo {
-		color: #0a66c2;
-	}
-}
-
-
-//------------------------------
-// Start Left Sidebar
-//------------------------------
-
-.short-profile {
-	li {
-		a {
-			span.t {
-				color: $text-color;
-			}
-			.number {
-				color: $brand-primary;
-			}
-		}
-	}
-}
-
-.link-lists {
-	ul {
-		a {
-			color: $brand-primary;
-		}
-	}
-}
-
-
-
-//-------------------------------
-// Start News Feed Section
-//-------------------------------
-
-.write-post {
-	.post-type {
-		.icon2 {
-			svg {
-				color: #70b5f9;
-			}
-		}
-		.icon3 {
-			svg {
-				color: #7fc15e;
-			}
-		}
-		.icon4 {
-			svg {
-				color: #70b5f9;
-			}
-		}
-		.icon5 {
-			svg {
-				color: #f5987e;
-			}
-		}
-	}
-}
-.news-feed {
-	.user-details {
-		h5 {
-			a:hover {
-				color: $brand-primary;
-			}
-		}
-	}
-
-	.reactions {
-		a {
-			&:hover {
-				color: $brand-primary;
-			}
-		}
-	}
-}
-
-
-
-//-----------------------
-// Start Right Sidebar
-//-----------------------
-
-.people-suggestion {
-
-	.follow-btn {
-		color: $light-grey;
-	}
-
-}
-
-.sidebar-links {
-	a {
-		&:hover {
-			color: $brand-primary;
-		}
-	}
-
-	.copyright {
-		.icon {
-			svg {
-				fill: #0a66c2;
-			}
-		}
-	}
+.link-lists a, 
+.short-profile a .number,
+.news-feed .user-details h5 a:hover,
+.news-feed .reactions a:hover,
+.sidebar-links a:hover {
+	color: $brand-primary;
 }
