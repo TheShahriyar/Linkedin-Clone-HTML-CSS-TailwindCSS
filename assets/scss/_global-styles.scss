@@ -1,56 +1,7 @@
 //Global Styles Start
 
-body {
-  background-color: #F3F2EF;
-  color: $text-color;
-  font-size: 14px;
-  line-height: 20px;
-  overflow-x: hidden;
-  text-rendering: optimizeLegibility !important;
-  -webkit-font-smoothing: antialiased !important;
-}
 
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-a {
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: none;
-  }
-
-  &:focus {
-    text-decoration: none;
-    color: $text-color;
-    outline: 0;
-  }
-}
-
-::-moz-selection {
-  background: $brand-primary;
-  color: #fff;
-  text-shadow: none;
-  outline: none;
-}
-
-::selection {
-  background: $brand-primary;
-  color: #fff;
-  text-shadow: none;
-  outline: none;
-}
 
 
 //Global Styles End
