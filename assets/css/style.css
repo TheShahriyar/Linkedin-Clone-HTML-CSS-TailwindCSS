@@ -48,97 +48,18 @@ a:focus {
 header .logo {
   color: #0a66c2;
 }
-header nav a .link {
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.6);
-}
-header nav a .icon {
-  position: relative;
-}
-header nav a .icon svg path {
-  color: rgba(0, 0, 0, 0.6) !important;
-}
-header nav a .icon .notifications {
-  position: absolute;
-  top: -3px;
-  right: -7px;
-  background-color: #cc1016;
-  color: #fff;
-  font-weight: 500;
-  line-height: 1;
-  padding: 3px 5px;
-  border-radius: 100%;
-  font-size: 12px;
-}
-header nav a .icon img {
-  width: 25px;
-  border-radius: 100%;
-}
 
-.short-profile {
-  overflow: hidden;
-}
-.short-profile .profile-info h3 {
-  font-size: 16px;
-  font-weight: 500;
-}
-.short-profile .profile-info span {
-  font-size: 12px;
-}
-.short-profile li a {
-  padding: 3px 20px;
-  font-size: 12px;
-  font-weight: 500;
-  color: rgba(0, 0, 0, 0.6);
-}
 .short-profile li a span.t {
-  display: block;
   color: rgba(0, 0, 0, 0.9);
 }
 .short-profile li a .number {
   color: #0a66c2;
-  font-weight: 500;
-}
-.short-profile .profile-bottom {
-  padding: 15px 20px;
-  font-size: 12px;
-  font-weight: 500;
 }
 
-.link-lists {
-  overflow: hidden;
-}
-.link-lists ul {
-  padding: 10px 20px;
-}
 .link-lists ul a {
   color: #0a66c2;
-  font-weight: 500;
-  font-size: 12px;
-  margin-bottom: 5px;
-  margin-top: 5px;
-}
-.link-lists ul a:hover {
-  text-decoration: underline;
-}
-.link-lists ul a .icon svg {
-  color: rgba(0, 0, 0, 0.6);
-}
-.link-lists .link-list-bottom {
-  padding: 10px 20px;
-  display: block;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 500;
 }
 
-.write-post .input-box .icon1 svg {
-  color: rgba(0, 0, 0, 0.6);
-}
-.write-post .input-box .input-field {
-  color: rgba(0, 0, 0, 0.6);
-  font-weight: 500;
-}
 .write-post .post-type .icon2 svg {
   color: #70b5f9;
 }
@@ -152,133 +73,20 @@ header nav a .icon img {
   color: #f5987e;
 }
 
-.news-feed .news-feed-header .user-img img {
-  width: 50px;
-  height: 50px;
-}
-.news-feed .news-feed-header .user-details h5 {
-  font-size: 14px;
-  font-weight: bold;
-}
-.news-feed .news-feed-header .user-details h5 a:hover {
-  text-decoration: underline;
+.news-feed .user-details h5 a:hover {
   color: #0a66c2;
-}
-.news-feed .news-feed-header .user-details .work {
-  font-size: 12px;
-  color: rgba(0, 0, 0, 0.6);
-  margin-top: -3px;
-}
-.news-feed .news-feed-header .user-details .post-time {
-  font-size: 12px;
-  color: rgba(0, 0, 0, 0.6);
-  margin-top: -3px;
-}
-.news-feed .reactions {
-  margin-top: 5px;
-}
-.news-feed .reactions img {
-  width: 16px;
-  height: 16px;
 }
 .news-feed .reactions a:hover {
-  text-decoration: underline;
   color: #0a66c2;
 }
-.news-feed .feed-footer {
-  color: rgba(0, 0, 0, 0.6);
-}
-.news-feed .feed-footer .icon svg {
+
+.people-suggestion .follow-btn {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.widget {
-  margin-bottom: 10px;
-}
-.widget h4 {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-.people-suggestion .people-list .suggested-people {
-  margin-bottom: 20px;
-}
-.people-suggestion .people-list .suggested-people img {
-  width: 50px;
-  height: 50px;
-  margin-right: 10px;
-}
-.people-suggestion .people-list .suggested-people .people-details h5 {
-  font-size: 14px;
-  font-weight: 500;
-}
-.people-suggestion .people-list .suggested-people .people-details .post {
-  font-size: 12px;
-  color: rgba(0, 0, 0, 0.6);
-}
-.people-suggestion .people-list .suggested-people .people-details .follow-btn {
-  border: 2px solid rgba(0, 0, 0, 0.9);
-  border-radius: 30px;
-  display: inline-block;
-  padding: 4px 20px;
-  font-weight: 500;
-  color: rgba(0, 0, 0, 0.6);
-  font-size: 16px;
-  margin-top: 5px;
-}
-.people-suggestion .people-list .suggested-people .people-details .follow-btn:hover {
-  background-color: rgba(0, 0, 0, 0.08);
-}
-.people-suggestion .recommendation {
-  color: rgba(0, 0, 0, 0.6);
-  font-weight: 500;
-  display: inline-block;
-  padding: 2px 4px;
-  border-radius: 3px;
-}
-
-.suggested-courses .course-list a {
-  display: block;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-.suggested-courses .course-list a .title {
-  font-weight: 600;
-  font-size: 14px;
-}
-.suggested-courses .course-list a .instructor {
-  padding-left: 13px;
-  color: rgba(0, 0, 0, 0.6);
-  font-size: 12px;
-}
-.suggested-courses .recommendation {
-  color: rgba(0, 0, 0, 0.6);
-  font-weight: 500;
-  margin-top: 20px;
-  display: inline-block;
-  padding: 2px 4px;
-  border-radius: 3px;
-}
-
-.sidebar-links ul {
-  text-align: center;
-}
-.sidebar-links ul li {
-  display: inline-block;
-  padding: 5px 20px;
-}
-.sidebar-links ul li a {
-  color: rgba(0, 0, 0, 0.6);
-  font-size: 12px;
-}
-.sidebar-links ul li a:hover {
+.sidebar-links a:hover {
   color: #0a66c2;
-  text-decoration: underline;
 }
 .sidebar-links .copyright .icon svg {
   fill: #0a66c2;
-}
-.sidebar-links .copyright p {
-  font-size: 12px;
 }

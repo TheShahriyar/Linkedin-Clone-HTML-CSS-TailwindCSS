@@ -24,40 +24,6 @@ header {
 	.logo {
 		color: #0a66c2;
 	}
-
-	
-	nav {
-		a {
-			.link {
-				font-size: 14px;
-				color: $light-grey;
-			}
-			.icon {
-				position: relative;
-				svg path{
-					color: $light-grey !important;
-				}
-
-				.notifications {
-					position: absolute;
-					top: -3px;
-					right: -7px;
-					background-color: #cc1016;
-					color: #fff;
-					font-weight: 500;
-					line-height: 1;
-					padding: 3px 5px;
-					border-radius: 100%;
-					font-size: 12px;
-				}
-
-				img {
-					width: 25px;
-					border-radius: 100%;
-				}
-			}
-		}
-	}
 }
 
 
@@ -66,75 +32,23 @@ header {
 //------------------------------
 
 .short-profile {
-	overflow: hidden;
-
-	.profile-info {
-		h3 {
-			font-size: 16px;
-			font-weight: 500;
-		}
-
-		span {
-			font-size: 12px;
-		}
-	}
-
 	li {
 		a {
-			padding: 3px 20px;
-			font-size: 12px;
-			font-weight: 500;
-			color: $light-grey;
-
 			span.t {
-				display: block;
 				color: $text-color;
 			}
-
 			.number {
 				color: $brand-primary;
-				font-weight: 500;
 			}
 		}
-	}
-
-	.profile-bottom {
-		padding: 15px 20px;
-		font-size: 12px;
-		font-weight: 500;
 	}
 }
 
 .link-lists {
-	overflow: hidden;
 	ul {
-		padding: 10px 20px;
-
 		a {
 			color: $brand-primary;
-			font-weight: 500;
-			font-size: 12px;
-			margin-bottom: 5px;
-			margin-top: 5px;
-
-			&:hover {
-				text-decoration: underline;
-			}
-
-			.icon {
-				svg {
-					color: $light-grey;
-				}
-			}
 		}
-	}
-
-	.link-list-bottom {
-		padding: 10px 20px;
-		display: block;
-		text-align: center;
-		font-size: 12px;
-		font-weight: 500;
 	}
 }
 
@@ -145,17 +59,6 @@ header {
 //-------------------------------
 
 .write-post {
-	.input-box {
-		.icon1 {
-			svg {
-				color: $light-grey;
-			}
-		}
-		.input-field {
-			color: $light-grey;
-			font-weight: 500;
-		}
-	}
 	.post-type {
 		.icon2 {
 			svg {
@@ -180,56 +83,18 @@ header {
 	}
 }
 .news-feed {
-	.news-feed-header {
-		.user-img {
-			img {
-				width: 50px;
-				height: 50px;
-			}
-		}
-		.user-details {
-			h5 {
-				font-size: 14px;
-				font-weight: bold;
-				a:hover {
-					text-decoration: underline;
-					color: $brand-primary;
-				}
-			}
-			.work {
-				font-size: 12px;
-				color: $light-grey;
-				margin-top: -3px;
-			}
-
-			.post-time {
-				font-size: 12px;
-				color: $light-grey;
-				margin-top: -3px;
-			}
-		}
-	}
-
-	.reactions {
-		margin-top: 5px;
-		img {
-			width: 16px;
-			height: 16px;
-		}
-
-		a {
-			&:hover {
-				text-decoration: underline;
+	.user-details {
+		h5 {
+			a:hover {
 				color: $brand-primary;
 			}
 		}
 	}
 
-	.feed-footer {
-		color: $light-grey;
-		.icon {
-			svg {
-				color: $light-grey;
+	.reactions {
+		a {
+			&:hover {
+				color: $brand-primary;
 			}
 		}
 	}
@@ -241,111 +106,18 @@ header {
 // Start Right Sidebar
 //-----------------------
 
-.widget {
-	margin-bottom: 10px;
-	h4 {
-		font-size: 16px;
-		font-weight: 600;
-		margin-bottom: 20px;
-	}
-}
-
 .people-suggestion {
 
-	.people-list {
-
-		.suggested-people {
-			margin-bottom: 20px;
-			
-			img {
-				width: 50px;
-				height: 50px;
-				margin-right: 10px;
-			}
-
-			.people-details {
-				h5 {
-					font-size: 14px;
-					font-weight: 500;
-				}
-				.post {
-					font-size: 12px;
-					color: $light-grey;
-				}
-
-				.follow-btn {
-					border: 2px solid $text-color;
-					border-radius: 30px;
-					display: inline-block;
-					padding: 4px 20px;
-					font-weight: 500;
-					color: $light-grey;
-					font-size: 16px;
-					margin-top: 5px;
-					&:hover {
-						background-color: rgba($color: #000000, $alpha: 0.08);
-					}
-				}
-			}
-		}
-	}
-
-	.recommendation {
+	.follow-btn {
 		color: $light-grey;
-		font-weight: 500;
-		display: inline-block;
-		padding: 2px 4px;
-		border-radius: 3px;
-	}
-}
-
-.suggested-courses {
-
-	.course-list {
-		a {
-			display: block;
-			padding-top: 4px;
-			padding-bottom: 4px;
-
-			.title {
-				font-weight: 600;
-				font-size: 14px;
-			}
-
-			.instructor {
-				padding-left: 13px;
-				color: $light-grey;
-				font-size: 12px;
-			}
-		}
 	}
 
-	.recommendation {
-		color: $light-grey;
-		font-weight: 500;
-		margin-top: 20px;
-		display: inline-block;
-		padding: 2px 4px;
-		border-radius: 3px;
-	}
 }
 
 .sidebar-links {
-	ul {
-		text-align: center;
-
-		li {
-			display: inline-block;
-			padding: 5px 20px;
-
-			a {
-				color: $light-grey;
-				font-size: 12px;
-				&:hover {
-					color: $brand-primary;
-					text-decoration: underline;
-				}
-			}
+	a {
+		&:hover {
+			color: $brand-primary;
 		}
 	}
 
@@ -354,9 +126,6 @@ header {
 			svg {
 				fill: #0a66c2;
 			}
-		}
-		p {
-			font-size: 12px;
 		}
 	}
 }
